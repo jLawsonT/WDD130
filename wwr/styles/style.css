@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tinos&display=swap');
+
 div#content { 
     max-width: 1600px; 
     margin: 0 auto;
+    font-family: 'Tinos', serif
 } 
 div#background {
     height: 725px;
@@ -10,6 +14,7 @@ nav a{
     text-align: center;
     color: #3e2441;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -29,10 +34,19 @@ main section{
 }
 
 body {
+    font-size: 18px;
+    font-family: 'Tinos', serif;
     background-color: #713b3b; 
+    margin: 0;
+    padding: 0;
 }
 header {
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
     background-color:rgba(178, 25, 25, 0.7);
+}
+h2 {
+    margin: 0;
 }
 nav a:hover {
     background-color: rgb(123, 71, 47);
@@ -40,15 +54,25 @@ nav a:hover {
 }
 
 .book {
+    font-size: 18px;
     background-color: #3b6471;
     color: #3e2441;
     text-decoration: none;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+
      
 }
 .join {
+    font-size: 18px;
     background-color: #3b6471; 
     color: #3e2441;
     text-decoration: none;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 .book:hover {
     background-color: #900000; 
@@ -62,10 +86,14 @@ nav a:hover {
     background-color: #283e43; 
 }
 .msg {
+    line-height: 1.5em;
     background-color: #e67a7a; 
+    padding: 35px;
 }
 footer {
     background-color: #e67a7a; 
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 body {
     background-color: #e67a7a; 
@@ -74,8 +102,12 @@ body {
     background-color: #76cadd; 
 }
 .home-title {
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
     color: #3e2441;
+    margin-top: 10px;
 }
+
 h4 {
     color: #3e2441;
 }
@@ -83,7 +115,9 @@ h4 {
     color: #3e2441;
 }
 .msg p {
+    font-size: .8em;
     color: #3e2441;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #3e2441;
@@ -100,6 +134,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -107,3 +142,26 @@ footer a:hover {
 footer h3 a:hover {
     text-decoration: underline;
 }
+#logo_link {
+    padding-top: 5px;
+}   
+footer .social img   {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card  {
+    margin: 200px 0;
+} 
+.card-img {
+    border: 10px solid;
+    border-color: #713b3b;
+}
+main section img {
+    box-sizing: border-box;
+}
+
