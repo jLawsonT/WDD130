@@ -244,6 +244,65 @@ main section img {
 
 
 
+/* Pricing */
+#hero-img1 {
+    width: 55%;
+    justify-self: center;
+    margin-top: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+#hero1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -150px; 
+}
+#hero-box1 {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    
+}
+
+#hero-msg1 {
+   
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 150px;
+}
+
+#hero-msg1 h1{
+    text-align: center;
+    color: #82211f;
+    font-family: 'Nova Mono', serif;
+    font-size: 150px;
+}
+
+#engaged {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -387,6 +446,10 @@ main section img {
     }
     footer {
         margin-top: 25px;
+    }
+    #engaged {
+        width: 80%;
+        
     }
 }
 
