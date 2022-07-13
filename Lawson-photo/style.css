@@ -25,6 +25,12 @@ nav {
     justify-content: space-around;
 }
 
+.slideshow-container {
+    width: 80%;
+    
+    
+}
+
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -129,7 +135,7 @@ nav a:hover {
     box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
-    background-color: #b7b7b742; 
+    background-color: hsla(0, 0%, 72%, 0.259); 
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -146,6 +152,7 @@ body {
     color: #3e2441;
     margin-top: 10px;
 }
+
 
 
 h4 {
@@ -224,9 +231,13 @@ main section img {
 
 }
 .gabe {
-    width: 90%;
-    justify-self: center;
+    margin: 0 auto;
+    width: 800px;
+
        
+}
+.mySlidesfade {
+    width: 100%;
 }
 
 .about-me {
@@ -237,6 +248,15 @@ main section img {
 
 }
 
+#img1 {
+    width: 1000px;
+}
+#img2 {
+    width: 1000px;
+}
+#img3 {
+    width: 1000px;
+}
 
 
 
